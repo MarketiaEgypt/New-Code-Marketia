@@ -86,11 +86,11 @@
     {% endif %}    
     
     <!--modernizr-->
-    <script src="{% static 'js/vendor/modernizr.js' %}"></script>
+    <script class="append-after-script" src="{% static 'js/vendor/modernizr.js' %}"></script>
 
     
     <!-- CHat Live whatsapp -->
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+{#    <script src="https://apps.elfsight.com/p/platform.js"></script>#}
     <div class="elfsight-app-9ace16e1-53f6-4df3-ba08-d92f83a5e215" id="live-chat"></div>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -591,42 +591,42 @@
                 <div class="w-100"></div>
             </div>
         </div><!--/.container-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="owl-carousel" id="gallerys-owl">
-                        <div>
-                            <div class="gl-img">
-                                <img src="{% static 'img/demo/demo-landing-page01.png' %}" alt=""/>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gl-img">
-                                <img src="{% static 'img/demo/demo-landing-page02.png' %}" alt=""/>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gl-img">
-                                <img src="{% static 'img/demo/website-demo-01.png' %}" alt=""/>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gl-img">
-                                <img src="{% static 'img/demo/ecommerce-demo-01.png' %}" alt=""/>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gl-img">
-                                <img src="{% static 'img/demo/website-demo-02.png' %}" alt=""/>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-        </div><!--/.container-fluid-->
+{#        <div class="container-fluid">#}
+{#            <div class="row">#}
+{#                <div class="col-md-12">#}
+{##}
+{#                    <div class="owl-carousel" id="gallerys-owl">#}
+{#                        <div>#}
+{#                            <div class="gl-img">#}
+{#                                <img src="{% static 'img/demo/demo-landing-page01.png' %}" alt=""/>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <div>#}
+{#                            <div class="gl-img">#}
+{#                                <img src="{% static 'img/demo/demo-landing-page02.png' %}" alt=""/>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <div>#}
+{#                            <div class="gl-img">#}
+{#                                <img src="{% static 'img/demo/website-demo-01.png' %}" alt=""/>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <div>#}
+{#                            <div class="gl-img">#}
+{#                                <img src="{% static 'img/demo/ecommerce-demo-01.png' %}" alt=""/>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        <div>#}
+{#                            <div class="gl-img">#}
+{#                                <img src="{% static 'img/demo/website-demo-02.png' %}" alt=""/>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                    #}
+{#                </div>#}
+{##}
+{#            </div>#}
+{#        </div><!--/.container-fluid-->#}
     </section>
     <!--work gallery -->
 
@@ -738,13 +738,13 @@
 
     <script src="{% static 'js/venobox.min.js' %}"></script>    
     <!--slick slider-->
-    <script  src="{% static 'js/vendor/slick-min.js' %}"></script>  
+    <script defer src="{% static 'js/vendor/slick-min.js' %}"></script>
     <!-- Wow js -->
     <script src="{% static 'lib/wow/wow.min.js' %}"></script>
     <!-- counter js -->
-    <script  src="{% static 'js/vendor/counter.js' %}"></script>
+    <script src="{% static 'js/vendor/counter.js' %}"></script>
     <!--owl js-->
-    <script  src="{% static 'js/vendor/owl-carousel.js' %}"></script>
+    <script src="{% static 'js/vendor/owl-carousel.js' %}"></script>
     <!--easing js-->
     <script src="{% static 'js/vendor/easing.js' %}"></script>
     <!--main script-->
